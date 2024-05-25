@@ -1,0 +1,51 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Contact Form Section */
+#contact {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #343a40;
+}
+
+.form-control:focus {
+    border-color: #6c5ce7;
+    box-shadow: 0 0 0 0.2rem rgba(108, 92, 231, 0.25);
+}
+
+.btn-primary {
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff5722;
+    border-color: #ff5722;
+}
+
+/* Form Validation Styles */
+.was-validated .form-control:invalid {
+    border-color: #ff3d00;
+}
+
+.was-validated .form-control:invalid:focus {
+    border-color: #c51162;
+    box-shadow: 0 0 0 0.2rem rgba(197, 17, 98, 0.25);
+}
+
+.was-validated .form-control:valid {
+    border-color: #4caf50;
+}
+
+.was-validated .form-control:valid:focus {
+    border-color: #388e3c;
+    box-shadow: 0 0 0 0.2rem rgba(56, 142, 60, 0.25);
+}
